@@ -1,0 +1,47 @@
+.body {
+    margin: auto;
+    width: 55%;
+    font-size: larger;
+
+}
+
+.Side {
+    display: inline-flex;
+}
+
+section.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+}
+
+.info h5 {
+    margin: 0;
+}
+
+.share i.fab.fa-youtube {
+    color: #f00;
+}
+
+.share i.fab.fa-twitter {
+    color: #65a2ed;
+}
+
+input#name,
+input[type="email"] {
+    width: 49%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px #cecaca solid;
+    margin: 15px 2px;
+}
+
+textarea#Comment {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px #cecaca solid;
+    margin: 15px 2px;
+    resize: none;
+
+}

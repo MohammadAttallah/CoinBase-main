@@ -1,0 +1,89 @@
+.test,
+.test1 {
+    /*
+    color: #fff;
+    background: #C94FBC;
+    background: -webkit-linear-gradient(bottom, #C94FBC, #5F22C4);
+    background: -moz-linear-gradient(bottom, #C94FBC, #5F22C4);
+    background: linear-gradient(to top, #C94FBC, #5F22C4);
+    border-radius: 20px;
+    border: 0;
+    padding: 10px 32px;
+    overflow: hidden;
+    cursor: pointer;
+*/
+    margin: 10px;
+}
+
+.mod,
+.mod1 {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+.mode-content {
+    background: #fff;
+    width: 35%;
+    margin: 10% auto 0;
+    padding: 15px 40px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.mod-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+
+.container1 h4,
+.container2 h4 {
+    background: -webkit-linear-gradient(#C94FBC, #5F22C4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px #e2dddd solid;
+    width: 270px;
+}
+
+button.btn-sign-up,
+.btn-login {
+    /*
+    color: #fff;
+    background: #C94FBC;
+    background: -webkit-linear-gradient(bottom, #C94FBC, #5F22C4);
+    background: -moz-linear-gradient(bottom, #C94FBC, #5F22C4);
+    background: linear-gradient(to top, #C94FBC, #5F22C4);
+    border-radius: 20px;
+    border: 0;
+    padding: 10px 32px;
+    overflow: hidden;
+    cursor: pointer;
+*/
+
+    margin: 15px auto 3px;
+    display: block;
+}
+
+section#signUp,
+section#Login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

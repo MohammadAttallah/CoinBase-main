@@ -1,0 +1,183 @@
+.star {
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    margin: 30px auto;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.left p {
+    line-height: 2.5;
+    width: 71%;
+}
+
+
+.star h3#f {
+    background: -webkit-linear-gradient(#b21da1, #6200ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: revert;
+    font-size: 25px;
+}
+
+.right img {
+    width: auto;
+    position: relative;
+}
+
+img#top {
+    width: 100%;
+    height: 320px;
+    position: relative;
+}
+
+.trade {
+    position: relative
+}
+
+.moddle {
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    background: #f8f8f8;
+    border-radius: 20px;
+}
+
+
+.moddle img {
+    border: 1px solid #ca2dbe;
+    border-radius: 15px;
+    width: 285px;
+    overflow: hidden;
+    margin: 50px 25px;
+    margin-top: 0;
+}
+
+.moddle img#\31 {
+    margin-left: 70px;
+}
+
+img#\32 {
+    margin-right: 70px;
+}
+
+.trade {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 250px;
+}
+
+.moddle h3 {
+    margin: 60px;
+    margin-bottom: 60px;
+    background: -webkit-linear-gradient(#a92a9b, #6200ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: revert;
+    font-size: 25px;
+}
+
+.blog h3#\31 {
+    text-align: center;
+    background: -webkit-linear-gradient(#b21da1, #6200ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: revert;
+    font-size: 25px;
+}
+
+.blog span#\32 {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.post {
+    display: flex;
+    width: 70%;
+    margin: 30px auto;
+}
+
+.post div {
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.SELL-Gift,
+.EXCHANGE {
+    color: #a7a5a5;
+    background: #a7a5a529;
+
+}
+
+.SELL-Gift button,
+.EXCHANGE button {
+    background: #a7a5a5;
+}
+
+.ETH {
+    border: 5px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+
+}
+
+.blog img {
+    width: 100%;
+}
+
+.app {
+    text-align: center;
+}
+
+.store img {
+    width: 165px;
+    padding: 5px;
+}
+
+.app h3 {
+    background: -webkit-linear-gradient(#ff00e3, #9b68eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: -40px;
+}
+
+.subscribe img {
+    /*    margin-top: -50px;*/
+    width: 100%;
+}
+
+.subscribe h3 {
+    text-align: center;
+    background: -webkit-linear-gradient(#d129be, #8847f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+
+}
+
+.subscribe p {
+    text-align: center;
+    line-height: 2;
+}
+
+.subscribe form {
+    text-align: center;
+    margin-top: 40px;
+}
+
+input#email-subscribe {
+    padding: 9px;
+    border-radius: 30px;
+    margin: 10px;
+    width: 220px;
+    border: 1px solid #d129be;
+    font-size: 12px;
+}

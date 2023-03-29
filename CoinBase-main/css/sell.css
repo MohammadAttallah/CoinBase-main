@@ -1,0 +1,61 @@
+.test {
+    margin: 10px;
+}
+
+.mod,
+.mod1 {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+.mode-content {
+    background: #fff;
+    width: 60%;
+    margin: 10% auto 0;
+    padding: 15px 40px;
+    border-radius: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.mod-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.container1 h3 {
+    font-size: 25px;
+    background: -webkit-linear-gradient(#ff05e4, #8847f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section#sellbitcoin {
+    margin-bottom: 50px;
+}
+
+.container1 img {
+    padding: 15px;
+}
+
+section.Bitcoin {
+    text-align: center;
+    width: 60%;
+    margin: 30px auto;
+}
+
+.mode-content1 {
+    background: #fff;
+    width: 50%;
+    margin: 10% auto 0;
+    padding: 15px 136px;
+    border-radius: 30px;
+    position: relative;
+    text-align: center;
+}

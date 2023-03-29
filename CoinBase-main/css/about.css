@@ -1,0 +1,111 @@
+p.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background: -webkit-linear-gradient(#ff05e4, #601bd1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    line-height: 2;
+}
+
+.hero p {
+    text-align: center;
+    color: #5b5757;
+}
+
+.about .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 25px;
+    border: 2px solid #ae93db;
+
+}
+
+.history h3 {
+    text-align: center;
+    font-size: 25px;
+    background: -webkit-linear-gradient(#ff05e4, #8847f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.all {
+    display: flex;
+    padding: 50px;
+}
+
+.left .box {
+    text-align: right;
+    margin-bottom: 200px;
+}
+
+.right {
+    margin-top: 200px;
+}
+
+.all h4 {
+    font-size: 20px;
+    background: -webkit-linear-gradient(#ff05e4, #8847f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*
+.center img {
+    width: 19%;
+}
+*/
+
+img.slick-slide {
+    padding: 10px;
+}
+
+button.slick-next.slick-arrow {
+    right: 10px;
+    background: #5f5b5b;
+}
+
+.team h3 {
+    text-align: center;
+    font-weight: 800;
+    background: -webkit-linear-gradient(#d129be, #8847f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.team p {
+    text-align: center;
+    line-height: 2;
+    font-weight: 600;
+}
+
+.subscribe h3 {
+    text-align: center;
+    background: -webkit-linear-gradient(#d129be, #8847f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+
+}
+
+.subscribe p {
+    text-align: center;
+    line-height: 2;
+}
+
+.subscribe form {
+    text-align: center;
+    margin-top: 40px;
+}
+
+input#Subscribe-Email {
+    padding: 8px;
+    border-radius: 30px;
+    margin: 10px;
+    width: 220px;
+    border: 1px solid #d129be;
+}

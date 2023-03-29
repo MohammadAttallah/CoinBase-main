@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    padding-top: 59px;
+}
+
+
+
+.sell .dropdown {
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+header.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+header .sell {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+header .menu ul li,
+header .navbar i,
+header .sell a {
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.dropdown-wrapper {
+    position: relative;
+    padding-top: 30px;
+}
+
+.dropdown-wrapper .dropdown {
+    position: absolute;
+}
+
+.dropdown-wrapper .dropdown ul {
+    flex-direction: column;
+    width: 200px;
+    background: #fff;
+}
+
+.dropdown-wrapper .dropdown ul li a {
+    display: block;
+    border: 1px solid #eee;
+    margin: 0;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.sell button a {
+    color: ;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 40px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+footer div {
+    width: 24%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer .photo .img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+footer .photo .img img {
+    width: 25%;
+    height: 60px;
+    padding: 4px;
+    object-fit: cover;
+}
+
+
+footer .copy {
+    width: fit-content;
+    color: #545454;
+    margin-top: 60px;
+}
+
+.welcome {
+    display: flex;
+    margin: 0 80px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.welcome div {
+    width: 50%;
+    padding: 40px;
+
+}
+
+.rates img {
+    width: 100%;
+    margin-top: -100px;
+}
+
+.body {
+    margin: auto;
+    width: 55%;
+    font-size: larger;
+
+}
+
+.Side {
+    display: inline-flex;
+}
+
+section.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info h5 {
+    margin: 0;
+}
+
+/*
+header form button {
+    background: #C94FBC;
+    background: -webkit-linear-gradient(bottom, #C94FBC, #5F22C4);
+    background: -moz-linear-gradient(bottom, #C94FBC, #5F22C4);
+    background: linear-gradient(to top, #C94FBC, #5F22C4);
+    border-radius: 20px;
+    border: 0;
+    padding: 10px 32px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+*/
+
+header a {
+    text-decoration: none
+}
+
+header form a {
+    color: #fff;
+}
+
+button {
+    color: #fff;
+    background: #C94FBC;
+    background: -webkit-linear-gradient(bottom, #C94FBC, #5F22C4);
+    background: -moz-linear-gradient(bottom, #C94FBC, #5F22C4);
+    background: linear-gradient(to top, #C94FBC, #5F22C4);
+    border-radius: 20px;
+    border: 0;
+    padding: 10px 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
